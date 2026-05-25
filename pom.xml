@@ -37,3 +37,10 @@
         <exec.mainClass>com.mycompany.quickchat.MainApp</exec.mainClass>
     </properties>
 </project>
+
+    <dependency> 
+    <groupId>org.json</groupId> 
+
+<artifactId>json</artifactId>
+        <version>20231013</version> 
+    </dependency> 
