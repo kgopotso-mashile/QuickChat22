@@ -61,9 +61,12 @@ public class MainApp {
           
           case 3 ->  {
               System.out.println("Quit.");
-          
-          running = false;// running = false; to exit the loop
           }
+              case 4 -> { 
+                  System.out.println("Stored Message.");
+              }
+          running = false;// running = false; to exit the loop
+          
           default -> {
               System.out.println("Option not available please choose from the above options and try again.");
     }
