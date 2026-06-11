@@ -7,7 +7,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Objects;
 
-public class Message {
+public class Message { 
+
+    private static List<String> sentMessages = new ArrayList<>();
+    private static List<String> disregardMessages = new ArrayList<>();
+    private static List<String> storedMessages = new ArrayList<>();
+    private static List<String> messageHashes = new ArrayList<>();
+    private static List<String> messageIds = new ArrayList<>();
+    private static int messageCounter = 0;
+    private static Scanner scanner = new Scanner(System.in)
 
     private String messageID;
     private int messageNumber;
